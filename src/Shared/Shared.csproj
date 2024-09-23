@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--Change this to 5.3.7, dotnet clean, and dotnet run to make it work-->
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.8" />
+  </ItemGroup>
+
+</Project>
